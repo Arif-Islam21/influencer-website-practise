@@ -1,0 +1,44 @@
+@media screen and (max-width: 620px) {
+  .container {
+    width: 95%;
+    margin: 20px auto;
+  }
+  nav,
+  .nav-icons {
+    flex-direction: column;
+    text-align: center;
+  }
+  .influencer-heading {
+    flex-direction: column-reverse;
+    margin-top: 50px;
+    align-items: center;
+    text-align: center;
+  }
+  .influencer-description {
+    padding: 5px;
+    margin: 30px auto;
+  }
+  .companies {
+    width: 100%;
+    gap: 50px;
+    flex-wrap: wrap;
+  }
+  .card-row {
+    grid-template-columns: 1fr;
+  }
+  .feature-product {
+    grid-template-columns: 1fr;
+    align-items: center;
+    text-align: center;
+  }
+  .feature-product p {
+    margin: 10px auto;
+  }
+  .feature-description {
+    order: 1;
+  }
+  .feature-img {
+    order: 2;
+    margin-top: 30px;
+  }
+}
