@@ -74,3 +74,46 @@ nav {
   justify-content: space-around;
 }
 /* popular collection start here */
+.cards-container h2 {
+  color: #3a3a3a;
+  font-size: 1.9rem;
+  font-weight: 600;
+  line-height: 70px;
+  text-align: center;
+}
+.card-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 30px;
+}
+.card {
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+  padding: 15px;
+}
+.main-img {
+  border-radius: 5px;
+  width: 100%;
+}
+.card h3 {
+  color: #18191f;
+  font-size: 1.9rem;
+  font-weight: 500;
+  line-height: 40px;
+}
+.card h5 {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 150%;
+}
+.card .main-text {
+  color: #787885;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 143%;
+  width: 200px;
+  letter-spacing: 0.252px;
+}
