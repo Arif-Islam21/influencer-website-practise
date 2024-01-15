@@ -117,3 +117,13 @@ nav {
   width: 200px;
   letter-spacing: 0.252px;
 }
+.see-more {
+  color: rgba(224, 44, 109, 0.87);
+  font-weight: 700;
+  border: none;
+  margin: 20px 10px 20px auto;
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+  align-items: center;
+}
