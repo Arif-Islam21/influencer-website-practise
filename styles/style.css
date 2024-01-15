@@ -6,7 +6,7 @@
   font-family: "Poppins", sans-serif;
 }
 .container {
-  width: calc(100% - 120px);
+  width: 90%;
   margin: 80px auto;
 }
 /* universal css closed here */
@@ -19,13 +19,10 @@ nav {
   font-size: 24px;
   font-weight: 700;
 }
-.nav-icons ul {
+.nav-icons {
   display: flex;
   justify-content: space-between;
-  background-color: red;
-}
-.nav-icons li {
-  list-style: none;
+  gap: 34px;
 }
 .nav-icons a {
   text-decoration: none;
