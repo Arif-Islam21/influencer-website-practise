@@ -149,3 +149,23 @@ nav {
 .feature-product button {
   border-radius: 0;
 }
+/* footer section start here */
+.footer {
+  padding: 50px 0;
+  background: #0a0826;
+  text-align: center;
+}
+footer h2 {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+footer p {
+  color: #d9dbe1;
+  font-size: 0.8rem;
+  font-weight: 700;
+  line-height: 24px;
+}
+footer i {
+  color: #fff;
+}
