@@ -9,7 +9,19 @@
   width: 90%;
   margin: 80px auto;
 }
+.btn-primary {
+  display: inline-flex;
+  padding: 10px 24px;
+  align-items: center;
+  gap: 8px;
+  border-radius: 41px;
+  background: #e02c6d;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+}
 /* universal css closed here */
+/* nav section starts here */
 nav {
   display: flex;
   justify-content: space-between;
@@ -28,4 +40,31 @@ nav {
   text-decoration: none;
   color: #3a3a3a;
   font-weight: 600;
+}
+/* nav section close here and influencer section start here */
+.influencer-heading {
+  display: flex;
+  justify-content: space-between;
+}
+.influencer-description {
+  padding: 140px 130px 140px 0;
+}
+.influencer-description h2 {
+  color: #3a3a3a;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 70px;
+  width: 580px;
+}
+.influencer-description p {
+  color: #3a3a3a;
+  font-weight: 600;
+  margin: 16px 0;
+  width: 505px;
+}
+
+.influencer-img {
+  background-image: url("../images/Circle design.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
