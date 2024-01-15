@@ -68,3 +68,9 @@ nav {
   background-repeat: no-repeat;
   background-size: contain;
 }
+/* companies section starts here */
+.companies {
+  display: flex;
+  justify-content: space-around;
+}
+/* popular collection start here */
