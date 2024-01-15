@@ -26,6 +26,13 @@
   .card-row {
     grid-template-columns: 1fr;
   }
+  .card {
+    text-align: center;
+  }
+  .card .main-text {
+    width: 40%;
+    margin: 10px auto;
+  }
   .feature-product {
     grid-template-columns: 1fr;
     align-items: center;
