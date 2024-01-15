@@ -128,3 +128,24 @@ nav {
   align-items: center;
 }
 /* feature product section start */
+.feature-product {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+.feature-product h2 {
+  color: #0a0826;
+  font-size: 2.3rem;
+  font-weight: 700;
+  line-height: 60px;
+}
+.feature-product p {
+  color: #6c6c6c;
+  font-weight: 700;
+  line-height: 28px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 60%;
+}
+.feature-product button {
+  border-radius: 0;
+}
