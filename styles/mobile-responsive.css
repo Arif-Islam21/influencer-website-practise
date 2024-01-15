@@ -18,6 +18,12 @@
     padding: 5px;
     margin: 30px auto;
   }
+  .influencer-description h2 {
+    width: 90%;
+  }
+  .influencer-description p {
+    width: 95%;
+  }
   .companies {
     width: 100%;
     gap: 50px;
@@ -40,6 +46,7 @@
   }
   .feature-product p {
     margin: 10px auto;
+    width: fit-content;
   }
   .feature-description {
     order: 1;
